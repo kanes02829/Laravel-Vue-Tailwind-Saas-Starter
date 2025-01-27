@@ -1,11 +1,7 @@
 # Super SAAS Template
 
-My name is [Julien Nahum](https://twitter.com/JhumanJ), I've founded multiple Software-As-A-Service companies. This
+Multiple Software-As-A-Service companies. This
 repo is the base I'm using to create a new SAAS. I'll do my best to keep it up to date, but feel free to contribute.
-
-Note that I built this template from the code of my last SAAS: [NotionForms](https://notionforms.io), so it might
-look a bit odd in some places.
-
 
 ## Features
 
@@ -20,11 +16,10 @@ look a bit odd in some places.
 - Welcome Page
 - Pricing Page
 - Admin space with user impersonation
-- Stats with [Laravel Model Stats](https://github.com/JhumanJ/laravel-model-stats)
 
 ## Installation
 
-- `composer create-project --prefer-dist JhumanJ/laravel-vue-tailwind-spa`
+- `composer update`
 - Edit `.env` and set your database connection details
 - (When installed via git clone or download, run `php artisan key:generate` and `php artisan jwt:secret`)
 - `php artisan migrate`
